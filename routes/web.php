@@ -23,4 +23,4 @@ Route::get('/boolean-careers', function () {
 
 Route::get('/boolean-careers/privacy-policy', function () {
     return view('pages.privacy-policy');
-})->name('privacy-policy');
+})->name('privacy');

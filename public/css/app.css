@@ -10951,6 +10951,10 @@ header img {
   width: 200px;
 }
 
+main {
+  margin-top: 100px;
+}
+
 footer {
   background-color: #1b3c59;
   color: white;
