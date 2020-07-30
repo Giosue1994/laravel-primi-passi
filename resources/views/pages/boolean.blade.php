@@ -1,7 +1,11 @@
+<!-- MAIN -->
 @extends('pages.layouts.app')
 
+@section('title')
+  Il corso per diventare web developer e trovare un nuovo lavoro
+@endsection
+
 @section('content')
-  <main>
     <section id="first">
       <div class="container">
         <div class="row">
@@ -30,5 +34,4 @@
         </div>
       </div>
     </section>
-  </main>
 @endsection

@@ -1,5 +1,4 @@
 <!-- HEADER -->
-<header>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="{{ route('boolean') }}">
       <img src="{{ asset('/img/logo.png') }}" alt="Logo">
@@ -18,4 +17,3 @@
       </div>
     </div>
   </nav>
-</header>

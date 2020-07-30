@@ -14,13 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/boolean-careers', function () {
     return view('pages.boolean');
 })->name('boolean');
 
-Route::get('/boolean-careers/privacy-policy', function () {
+Route::get('/privacy-policy', function () {
     return view('pages.privacy-policy');
 })->name('privacy');
+
+Route::get('/faq', function () {
+
+    $faqs_left = config('faqs.faqs_left');
+
+    return view('pages.faq', [
+      'faqs_list_left' => $faqs_left
+    ]);
+})->name('faq');

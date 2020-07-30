@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <title>Boolean</title>
+    <title>@yield('title')</title>
   </head>
   <body>
 
-    @include('pages.partials.header')
+    <header>
+      @include('pages.partials.header')
+    </header>
 
-    @yield('content')
+    <main>
+      @yield('content')
+    </main>
 
-    @include('pages.partials.footer')
+    <footer>
+      @include('pages.partials.footer')
+    </footer>
 
+    <script src="{{ asset('js/app.js') }}"></script>
   </body>
 </html>
