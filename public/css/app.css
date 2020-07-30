@@ -11001,34 +11001,40 @@ main {
   margin-top: 86px;
 }
 
-#become,
-#home-school,
-#practical {
-  background-color: white;
-}
-
 #become h3,
 #home-school h3,
-#practical h3 {
+#practical h3,
+#placement h3 {
   font-size: 22px;
   padding: 30px 0 10px;
 }
 
 #become ul,
 #home-school ul,
-#practical ul {
+#practical ul,
+#placement ul {
   padding-left: 20px;
 }
 
 #become span,
 #home-school span,
-#practical span {
+#practical span,
+#placement span {
   font-weight: bold;
 }
 
-#informations {
+#become,
+#partners {
+  background-color: white;
+}
+
+#informations,
+#practical {
   background-color: #023c5a;
   color: white;
+}
+
+#informations {
   padding: 50px 0;
 }
 
@@ -11040,13 +11046,9 @@ main {
   color: #8e8e8e;
 }
 
-#home-school {
+#home-school,
+#placement {
   background-color: #e7ebf1;
-}
-
-#practical {
-  background-color: #023c5a;
-  color: white;
 }
 
 footer {

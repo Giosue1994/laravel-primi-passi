@@ -136,4 +136,21 @@
         </div>
       </div>
     </section>
+
+    <!-- SEZIONE PLACEMENT -->
+    <section id="placement">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>Un dipartimento <span class="font-italic">placement</span> dedicato</h2>
+            <p>Finito il corso, il nostro compito è quello di offrirti <span>un costante e attivo sostegno nella ricerca del lavoro</span>.</p>
+            <p>A seconda della tua personalità e delle tue attitudini, <span>ti presentiamo alle aziende che più si avvicinano alle tue esigenze</span>, insegnandoti a utilizzare strumenti e metodi per rendere il tuo profilo accattivante per il mercato del lavoro.</p>
+          </div>
+
+          <div class="col-6">
+            <img src="{{ asset('/img/studente.png') }}" alt="Studente">
+          </div>
+        </div>
+      </div>
+    </section>
 @endsection

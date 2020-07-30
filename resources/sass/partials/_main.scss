@@ -4,10 +4,11 @@ main {
   margin-top: 86px;
 }
 
+
 #become,
 #home-school,
-#practical {
-  background-color: $primary_color;
+#practical,
+#placement, {
 
   h3 {
     font-size: 22px;
@@ -23,8 +24,17 @@ main {
   }
 }
 
-#informations {
+#become,
+#partners {
+  background-color: $primary_color;
+}
+
+#informations,
+#practical {
   @include layout_dark;
+}
+
+#informations {
   padding: 50px 0;
 }
 
@@ -36,10 +46,7 @@ main {
   }
 }
 
-#home-school {
+#home-school,
+#placement {
   background-color: $light_section;
-}
-
-#practical {
-  @include layout_dark;
 }
