@@ -9,12 +9,17 @@
   <div class="container">
     <div class="row">
       <div class="col-6">
-
         @foreach ($faqs_list_left as $faq)
           <h2>{{ $faq['question'] }}</h2>
           <p>{{ $faq['answer'] }}</p>
         @endforeach
+      </div>
 
+      <div class="col-6">
+        @foreach ($faqs_list_right as $faq)
+          <h2>{{ $faq['question'] }}</h2>
+          <p>{{ $faq['answer'] }}</p>
+        @endforeach
       </div>
     </div>
   </div>
