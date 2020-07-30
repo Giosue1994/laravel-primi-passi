@@ -10997,6 +10997,10 @@ main {
   margin-top: 86px;
 }
 
+#become {
+  background-color: white;
+}
+
 #become h3 {
   font-size: 22px;
   padding: 30px 0 10px;
@@ -11018,6 +11022,14 @@ main {
 
 #informations h2 {
   font-size: 50px;
+}
+
+#partners {
+  padding: 0;
+}
+
+#partners p {
+  color: #8e8e8e;
 }
 
 footer {

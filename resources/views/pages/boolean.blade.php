@@ -47,6 +47,39 @@
       </div>
     </section>
 
+    <section id="partners">
+      <div class="container">
+        <p>I nostri studenti sono stati assunti da:</p>
+        <div class="row">
+          <div class="col-4">
+            <img src="{{ asset('/img/partners/facileit.png') }}" alt="Facile.it">
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/partners/oneday.png') }}" alt="Oneday">
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/partners/prima.png') }}" alt="Prima">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <img src="{{ asset('/img/partners/fabbrica-digitale-big.png') }}" alt="Fabbrica digitale">
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/partners/nephila.png') }}" alt="Nephila">
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/partners/rds.png') }}" alt="RDS">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="second">
       <div class="container">
         <div class="row">
