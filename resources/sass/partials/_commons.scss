@@ -8,9 +8,18 @@
 /* ________ REGOLE GENERALI ________ */
 body {
   font-family: 'Roboto', sans-serif;
+  color: $font_color;
+  font-size: 18px;
 }
 
 img {
-  width: 100%;
-  display: block;
+  @include img_size;
+}
+
+section {
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 55px;
 }

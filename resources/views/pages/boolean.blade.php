@@ -6,17 +6,21 @@
 @endsection
 
 @section('content')
-    <section id="first">
+    <section id="become">
       <div class="container">
         <div class="row">
-          <div class="col-12 become">
-            <h1>DIVENTA SVILUPPATORE WEB</h1>
-            <h3>Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</h3>
+          <div class="col-6">
+            <h1>DIVENTA <span class="font-weight-bold">SVILUPPATORE WEB</span></h1>
+            <h3 class="font-weight-bold">Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</h3>
             <ul>
-              <li>6 mesi di corso intensivo online in diretta</li>
-              <li>Nessuna competenza di programmazione richiesta</li>
-              <li>Siamo certi del tuo successo, altrimenti ti rimborsiamo</li>
+              <li><span>6 mesi</span> di corso intensivo online in diretta</li>
+              <li><span>Nessuna competenza</span> di programmazione richiesta</li>
+              <li>Siamo certi del tuo successo, altrimenti <span>ti rimborsiamo</span></li>
             </ul>
+          </div>
+
+          <div class="col-6">
+            <img src="{{ asset('/img/gif/pc-black-gif.gif') }}" alt="GIF">
           </div>
         </div>
       </div>

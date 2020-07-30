@@ -1,4 +1,22 @@
+
 // MAIN
 main {
   margin-top: 86px;
+}
+
+#become {
+  h3 {
+    font-size: 22px;
+    padding: 30px 0 10px;
+  }
+
+  ul {
+    padding-left: 20px;
+
+    li {
+      span {
+        font-weight: bold;
+      }
+    }
+  }
 }

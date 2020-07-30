@@ -10940,6 +10940,8 @@ a.text-dark:focus {
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #1b3c59;
+  font-size: 18px;
 }
 
 img {
@@ -10947,12 +10949,65 @@ img {
   display: block;
 }
 
-header img {
+section {
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+header nav {
+  background-color: white;
+  font-size: 15px;
+}
+
+header nav .navbar-nav a {
+  margin-left: 10px;
+  line-height: 2.5;
+  padding: 0 30px;
+  text-decoration: none;
+  color: #023c5a;
+}
+
+header nav .navbar-nav a.active {
+  border-bottom: 2px solid #2ed04b;
+}
+
+header nav .navbar-nav a:hover {
+  border-bottom: 2px solid #2ed04b;
+}
+
+header nav .navbar-nav a.my-btn {
+  background-color: #2ed04b;
+  color: white;
+  border-radius: 8px;
+}
+
+header nav .navbar-nav a.my-btn:hover {
+  background-color: #4fd15e;
+}
+
+header nav img {
   width: 200px;
+  margin-right: 100px;
 }
 
 main {
   margin-top: 86px;
+}
+
+#become h3 {
+  font-size: 22px;
+  padding: 30px 0 10px;
+}
+
+#become ul {
+  padding-left: 20px;
+}
+
+#become ul li span {
+  font-weight: bold;
 }
 
 footer {
