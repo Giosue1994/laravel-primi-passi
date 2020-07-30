@@ -20,3 +20,13 @@ main {
     }
   }
 }
+
+#informations {
+  background-color: $secondary_color;
+  color: $primary_color;
+  padding: 50px 0;
+
+  h2 {
+    font-size: 50px;
+  }
+}

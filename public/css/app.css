@@ -10950,7 +10950,7 @@ img {
 }
 
 section {
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 h1 {
@@ -11008,6 +11008,16 @@ main {
 
 #become ul li span {
   font-weight: bold;
+}
+
+#informations {
+  background-color: #023c5a;
+  color: white;
+  padding: 50px 0;
+}
+
+#informations h2 {
+  font-size: 50px;
 }
 
 footer {
