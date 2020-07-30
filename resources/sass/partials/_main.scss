@@ -4,7 +4,9 @@ main {
   margin-top: 86px;
 }
 
-#become, #home-school {
+#become,
+#home-school,
+#practical {
   background-color: $primary_color;
 
   h3 {
@@ -14,18 +16,15 @@ main {
 
   ul {
     padding-left: 20px;
+  }
 
-    li {
-      span {
-        font-weight: bold;
-      }
-    }
+  span {
+    font-weight: bold;
   }
 }
 
 #informations {
-  background-color: $secondary_color;
-  color: $primary_color;
+  @include layout_dark;
   padding: 50px 0;
 }
 
@@ -39,4 +38,8 @@ main {
 
 #home-school {
   background-color: $light_section;
+}
+
+#practical {
+  @include layout_dark;
 }

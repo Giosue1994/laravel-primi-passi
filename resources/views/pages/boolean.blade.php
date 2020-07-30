@@ -118,15 +118,21 @@
       </div>
     </section>
 
-    <section id="second">
+    <!-- SEZIONE PRACTICAL -->
+    <section id="practical">
       <div class="container">
         <div class="row">
-          <div class="col-12 practical">
+          <div class="col-6">
+            <img src="{{ asset('/img/boolflix.png') }}" alt="Boolflix">
+          </div>
+
+          <div class="col-6 text-right">
             <h2>Un programma fortemente pratico</h2>
             <p>Ogni concetto teorico che assimili è seguito da un esercizio.</p>
-            <p>Il piano di studi pensato per incrementare le tue competenze trae spunto da case study reali, così da proporti esercizi sempre nuovi.</p>
+            <p>Il piano di studi pensato per incrementare le tue competenze trae spunto da <span>case study reali</span>, così da proporti esercizi <span>sempre nuovi</span>.</p>
             <p>Così sei pronto per entrare nel mercato del lavoro.</p>
           </div>
+
         </div>
       </div>
     </section>

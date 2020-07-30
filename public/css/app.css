@@ -11002,23 +11002,27 @@ main {
 }
 
 #become,
-#home-school {
+#home-school,
+#practical {
   background-color: white;
 }
 
 #become h3,
-#home-school h3 {
+#home-school h3,
+#practical h3 {
   font-size: 22px;
   padding: 30px 0 10px;
 }
 
 #become ul,
-#home-school ul {
+#home-school ul,
+#practical ul {
   padding-left: 20px;
 }
 
-#become ul li span,
-#home-school ul li span {
+#become span,
+#home-school span,
+#practical span {
   font-weight: bold;
 }
 
@@ -11038,6 +11042,11 @@ main {
 
 #home-school {
   background-color: #e7ebf1;
+}
+
+#practical {
+  background-color: #023c5a;
+  color: white;
 }
 
 footer {

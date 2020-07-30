@@ -2,3 +2,8 @@
   width: 100%;
   display: block;
 }
+
+@mixin layout_dark {
+  background-color: $secondary_color;
+  color: $primary_color;
+}
