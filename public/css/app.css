@@ -10957,6 +10957,10 @@ h1 {
   font-size: 55px;
 }
 
+h2 {
+  font-size: 45px;
+}
+
 header nav {
   background-color: white;
   font-size: 15px;
@@ -10997,20 +11001,24 @@ main {
   margin-top: 86px;
 }
 
-#become {
+#become,
+#home-school {
   background-color: white;
 }
 
-#become h3 {
+#become h3,
+#home-school h3 {
   font-size: 22px;
   padding: 30px 0 10px;
 }
 
-#become ul {
+#become ul,
+#home-school ul {
   padding-left: 20px;
 }
 
-#become ul li span {
+#become ul li span,
+#home-school ul li span {
   font-weight: bold;
 }
 
@@ -11020,16 +11028,16 @@ main {
   padding: 50px 0;
 }
 
-#informations h2 {
-  font-size: 50px;
-}
-
 #partners {
   padding: 0;
 }
 
 #partners p {
   color: #8e8e8e;
+}
+
+#home-school {
+  background-color: #e7ebf1;
 }
 
 footer {

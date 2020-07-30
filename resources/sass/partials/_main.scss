@@ -4,7 +4,7 @@ main {
   margin-top: 86px;
 }
 
-#become {
+#become, #home-school {
   background-color: $primary_color;
 
   h3 {
@@ -27,10 +27,6 @@ main {
   background-color: $secondary_color;
   color: $primary_color;
   padding: 50px 0;
-
-  h2 {
-    font-size: 50px;
-  }
 }
 
 #partners {
@@ -39,4 +35,8 @@ main {
   p {
     color: #8e8e8e;
   }
+}
+
+#home-school {
+  background-color: $light_section;
 }

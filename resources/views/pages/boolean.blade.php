@@ -6,6 +6,7 @@
 @endsection
 
 @section('content')
+  <!-- SEZIONE BECOME -->
     <section id="become">
       <div class="container">
         <div class="row">
@@ -26,6 +27,7 @@
       </div>
     </section>
 
+    <!-- SEZIONE INFORMATIONS -->
     <section id="informations">
       <div class="container">
         <div class="row text-center">
@@ -47,6 +49,7 @@
       </div>
     </section>
 
+    <!-- SEZIONE PARTNERS -->
     <section id="partners">
       <div class="container">
         <p>I nostri studenti sono stati assunti da:</p>
@@ -75,6 +78,41 @@
 
           <div class="col-4">
             <img src="{{ asset('/img/partners/rds.png') }}" alt="RDS">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEZIONE HOME-SCHOOL -->
+    <section id="home-school">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>Una vera scuola a casa tua</h2>
+            <p>
+              Le lezioni si svolgono tutti i giorni, dal lunedì al venerdì,
+              in <span>aula virtuale.</span>
+            </p>
+            <ul>
+              <li>
+                <span>Il mattino</span> è maggiormente dedicato alla teoria con
+                lezioni in diretta. Comodamente da casa tua, puoi interagire con
+                i tuoi compagni e con il <span class="font-italic">teacher</span>,
+                proprio come se fossi a scuola.
+              </li>
+              <br>
+              <li>
+                <span>Il pomeriggio</span> è dedicato alle esercitazioni.
+                In qualsiasi momento puoi chiedere supporto ai
+                <span class="font-italic">tutor</span> per risolvere
+                gli esercizi che ti abbiamo assegnato. Alza la mano e
+                siamo subito da te!
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6">
+            <img src="{{ asset('/img/gif/pc-black1-gif.gif') }}" alt="GIF">
           </div>
         </div>
       </div>
