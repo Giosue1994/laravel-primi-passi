@@ -153,4 +153,51 @@
         </div>
       </div>
     </section>
+
+    <!-- SEZIONE WHY -->
+    <section id="why">
+      <div class="container text-center">
+        <h2>Perché Boolean?</h2>
+        <p>Siamo con te dal primo giorno di corso alla firma del tuo contratto di assunzione.</p>
+        <div class="row">
+          <div class="col-4">
+            <img src="{{ asset('/img/home.svg') }}" alt="Home">
+            <h4>Impara da casa tua</h4>
+            <p>8 studenti su 10 trovano che le lezioni in <span>aula virtuale</span> siano migliori rispetto alle lezioni tradizionali in classe.</p>
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/pen.svg') }}" alt="Pen">
+            <h4>Corso pratico e interattivo</h4>
+            <p>Più del 40% del tuo tempo è dedicato a <span>esercitazioni</span> e a case study. Intervieni in diretta e fai domande quando vuoi.</p>
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/chat.svg') }}" alt="Chat">
+            <h4>Esercitazione assistita</h4>
+            <p>Per ogni tuo dubbio, in aula virtuale c’è sempre un <span>tutor</span> pronto a darti una mano e a incoraggiarti.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <img src="{{ asset('/img/bag.svg') }}" alt="Bag">
+            <h4>Colloqui garantiti</h4>
+            <p>Ti presentiamo alle nostre aziende partner e se entro 6 mesi non trovi lavoro, puoi usufruire della <span>garanzia Money Back</span></p>
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/code.svg') }}" alt="Code">
+            <h4>Rivedi le lezioni</h4>
+            <p>Sei stato assente o non hai capito? Niente paura, hai a disposizione le <span>registrazioni</span> di ogni lezione.</p>
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/light.svg') }}" alt="Light">
+            <h4>Un'esperienza condivisa</h4>
+            <p>Segui il corso insieme a ragazzi con la tua stessa motivazione e la tua stessa determinazione. <span>Insieme</span> si va lontano.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 @endsection

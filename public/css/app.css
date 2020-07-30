@@ -11024,7 +11024,8 @@ main {
 }
 
 #become,
-#partners {
+#partners,
+#why {
   background-color: white;
 }
 
@@ -11049,6 +11050,17 @@ main {
 #home-school,
 #placement {
   background-color: #e7ebf1;
+}
+
+#why img {
+  position: relative;
+  left: 43%;
+  width: 50px;
+  padding: 30px 0;
+}
+
+#why span {
+  font-weight: bold;
 }
 
 footer {

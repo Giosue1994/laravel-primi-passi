@@ -25,7 +25,8 @@ main {
 }
 
 #become,
-#partners {
+#partners,
+#why {
   background-color: $primary_color;
 }
 
@@ -49,4 +50,18 @@ main {
 #home-school,
 #placement {
   background-color: $light_section;
+}
+
+#why {
+
+  img {
+    position: relative;
+    left: 43%;
+    width: 50px;
+    padding: 30px 0;
+  }
+
+  span {
+    font-weight: bold;
+  }
 }
