@@ -249,4 +249,30 @@
             <img src="{{ asset('/img/linkiesta.png') }}" alt="Linkiesta">
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- SEZIONE NEXT -->
+    <section id="next">
+      <div class="container">
+        <div class="row text-right">
+          <div class="col-12">
+            <div class="bell">
+              <i class="far fa-bell"></i>
+            </div>
+            <span>Prossimo corso: 1 Ottobre</span>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <h2>A un passo dalla tua nuova professione.</h2>
+            <ul>
+              <li><a href="#">Scopri il corso</a></li>
+              <li><a href="#">Guarda una lezione</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 @endsection

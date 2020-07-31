@@ -7,3 +7,8 @@
   background-color: $secondary_color;
   color: $primary_color;
 }
+
+@mixin btn_style {
+  color: $primary_color;
+  border-radius: 8px;
+}

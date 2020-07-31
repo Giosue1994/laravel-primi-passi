@@ -19,9 +19,8 @@ header {
           border-bottom: 2px solid $click_color;
         }
         &.my-btn {
+          @include btn_style;
           background-color: $click_color;
-          color: $primary_color;
-          border-radius: 8px;
 
           &:hover {
             background-color: #63e071;

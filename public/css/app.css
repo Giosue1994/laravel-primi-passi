@@ -10983,9 +10983,9 @@ header nav .navbar-nav a:hover {
 }
 
 header nav .navbar-nav a.my-btn {
-  background-color: #2ed04b;
   color: white;
   border-radius: 8px;
+  background-color: #2ed04b;
 }
 
 header nav .navbar-nav a.my-btn:hover {
@@ -11016,7 +11016,8 @@ main {
 
 #home-school,
 #placement,
-#success {
+#success,
+#next {
   background-color: #e7ebf1;
 }
 
@@ -11077,6 +11078,219 @@ main {
 
 #talk {
   padding: 20px 0;
+}
+
+#next {
+  padding-top: 50px;
+}
+
+#next .bell {
+  position: absolute;
+  right: 230px;
+  top: -25px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#next .bell i {
+  position: absolute;
+  -webkit-animation-name: ring;
+          animation-name: ring;
+  -webkit-animation: ring 4s ease-in-out infinite;
+          animation: ring 4s ease-in-out infinite;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  transform-origin: 50% 4px;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  1% {
+    transform: rotate(45deg);
+  }
+
+  2% {
+    transform: rotate(-42deg);
+  }
+
+  4% {
+    transform: rotate(40deg);
+  }
+
+  6% {
+    transform: rotate(-38deg);
+  }
+
+  8% {
+    transform: rotate(36deg);
+  }
+
+  10% {
+    transform: rotate(-32deg);
+  }
+
+  12% {
+    transform: rotate(30deg);
+  }
+
+  14% {
+    transform: rotate(-28deg);
+  }
+
+  16% {
+    transform: rotate(24deg);
+  }
+
+  18% {
+    transform: rotate(-20deg);
+  }
+
+  20% {
+    transform: rotate(16deg);
+  }
+
+  22% {
+    transform: rotate(-12deg);
+  }
+
+  24% {
+    transform: rotate(10deg);
+  }
+
+  26% {
+    transform: rotate(-8deg);
+  }
+
+  28% {
+    transform: rotate(4deg);
+  }
+
+  30% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  1% {
+    transform: rotate(45deg);
+  }
+
+  2% {
+    transform: rotate(-42deg);
+  }
+
+  4% {
+    transform: rotate(40deg);
+  }
+
+  6% {
+    transform: rotate(-38deg);
+  }
+
+  8% {
+    transform: rotate(36deg);
+  }
+
+  10% {
+    transform: rotate(-32deg);
+  }
+
+  12% {
+    transform: rotate(30deg);
+  }
+
+  14% {
+    transform: rotate(-28deg);
+  }
+
+  16% {
+    transform: rotate(24deg);
+  }
+
+  18% {
+    transform: rotate(-20deg);
+  }
+
+  20% {
+    transform: rotate(16deg);
+  }
+
+  22% {
+    transform: rotate(-12deg);
+  }
+
+  24% {
+    transform: rotate(10deg);
+  }
+
+  26% {
+    transform: rotate(-8deg);
+  }
+
+  28% {
+    transform: rotate(4deg);
+  }
+
+  30% {
+    transform: rotate(0deg);
+  }
+}
+
+#next h2 {
+  padding-top: 30px;
+}
+
+#next span {
+  padding: 15px 30px 15px 50px;
+  background-color: #2ed04b;
+  color: white;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+#next ul {
+  padding-top: 50px;
+  list-style-type: none;
+}
+
+#next ul li {
+  display: inline-block;
+  width: 240px;
+  padding: 10px 0;
+  background-color: #2ed04b;
+  color: white;
+  border-radius: 8px;
+}
+
+#next ul li:hover {
+  background-color: #63e071;
+}
+
+#next ul li:last-of-type {
+  background-color: #023c5a;
+  margin-left: 50px;
+}
+
+#next ul li:last-of-type:hover {
+  background-color: #044669;
+}
+
+#next ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 footer {
