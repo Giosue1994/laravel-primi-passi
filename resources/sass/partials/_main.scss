@@ -4,12 +4,30 @@ main {
   margin-top: 86px;
 }
 
+// BACKGROUND DELLE SEZIONI
+#become,
+#partners,
+#why {
+  background-color: $primary_color;
+}
 
+#informations,
+#practical,
+#talk {
+  @include layout_dark;
+}
+
+#home-school,
+#placement,
+#success {
+  background-color: $light_section;
+}
+
+// STILI DELLE SEZIONI
 #become,
 #home-school,
 #practical,
 #placement, {
-
   h3 {
     font-size: 22px;
     padding: 30px 0 10px;
@@ -24,18 +42,9 @@ main {
   }
 }
 
-#become,
-#partners,
-#why {
-  background-color: $primary_color;
-}
 
 #informations,
-#practical {
-  @include layout_dark;
-}
-
-#informations {
+#success {
   padding: 50px 0;
 }
 
@@ -47,13 +56,8 @@ main {
   }
 }
 
-#home-school,
-#placement {
-  background-color: $light_section;
-}
 
 #why {
-
   img {
     position: relative;
     left: 43%;
@@ -64,4 +68,19 @@ main {
   span {
     font-weight: bold;
   }
+}
+
+#success {
+  .row {
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+#talk {
+  padding: 20px 0;
 }

@@ -200,4 +200,53 @@
         </div>
       </div>
     </section>
+
+    <!-- SEZIONE SUCCESS -->
+    <section id="success">
+      <div class="container text-center">
+        <h2>Dai una svolta alla tua carriera</h2>
+        <h4>Le storie di successo di studenti e aziende partner</h4>
+        <div class="row">
+          <div class="col-6">
+            <img src="{{ asset('/img/intervista.png') }}" alt="Intervista">
+          </div>
+
+          <div class="col-6 text-right">
+            <h3 class="font-weight-bold">Il mio lavoro dopo Boolean</h3>
+            <p class="font-italic">"Partendo da zero, in due settimane ho costruito il mio primo sito! Sono molto soddisfatto di aver scelto questo corso: l'impressione che si ha è quella di entrare in una classe vera e propria. Un corso innovativo che mi ha stupito”.</p>
+            <p><span>Alessandro Biagini</span> - Studente Boolean assunto da DISC SPA come web developer</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 text-left">
+            <h3 class="font-weight-bold">Un network di aziende di livello</h3>
+            <p class="font-italic">"La richiesta di web developer da parte delle aziende è molto alta. I pochi professionisti sul mercato vengono contattati quotidianamente da aziende potenzialmente interessate ad assumerli. La laurea non è un requisito fondamentale per questa professione: lo sono la voglia di formarsi e di crescere professionalmente".</p>
+            <p><span>Stefania Gardini</span> - HR Talent Acquisition in Facile.it</p>
+          </div>
+
+          <div class="col-6">
+            <img src="{{ asset('/img/career-2.png') }}" alt="Career">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEZIONE TALK -->
+    <section id="talk">
+      <div class="container">
+        <p>Parlano di noi:</p>
+        <div class="row">
+          <div class="col-4">
+            <img src="{{ asset('/img/corriere-della-sera.png') }}" alt="Corriere della sera">
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/la-repubblica.png') }}" alt="La Repubblica">
+          </div>
+
+          <div class="col-4">
+            <img src="{{ asset('/img/linkiesta.png') }}" alt="Linkiesta">
+          </div>
+        </div>
 @endsection

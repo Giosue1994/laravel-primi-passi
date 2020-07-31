@@ -10989,7 +10989,7 @@ header nav .navbar-nav a.my-btn {
 }
 
 header nav .navbar-nav a.my-btn:hover {
-  background-color: #4fd15e;
+  background-color: #63e071;
 }
 
 header nav img {
@@ -10999,6 +10999,25 @@ header nav img {
 
 main {
   margin-top: 86px;
+}
+
+#become,
+#partners,
+#why {
+  background-color: white;
+}
+
+#informations,
+#practical,
+#talk {
+  background-color: #023c5a;
+  color: white;
+}
+
+#home-school,
+#placement,
+#success {
+  background-color: #e7ebf1;
 }
 
 #become h3,
@@ -11023,19 +11042,8 @@ main {
   font-weight: bold;
 }
 
-#become,
-#partners,
-#why {
-  background-color: white;
-}
-
 #informations,
-#practical {
-  background-color: #023c5a;
-  color: white;
-}
-
-#informations {
+#success {
   padding: 50px 0;
 }
 
@@ -11047,11 +11055,6 @@ main {
   color: #8e8e8e;
 }
 
-#home-school,
-#placement {
-  background-color: #e7ebf1;
-}
-
 #why img {
   position: relative;
   left: 43%;
@@ -11061,6 +11064,19 @@ main {
 
 #why span {
   font-weight: bold;
+}
+
+#success .row {
+  padding: 20px 0;
+  align-items: center;
+}
+
+#success span {
+  font-weight: bold;
+}
+
+#talk {
+  padding: 20px 0;
 }
 
 footer {
