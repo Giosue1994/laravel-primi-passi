@@ -10954,16 +10954,38 @@ section {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 45px;
 }
 
 h2 {
   font-size: 45px;
 }
 
+.help {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #2ed04b;
+}
+
+.help i {
+  font-size: 38px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 header nav {
   background-color: white;
   font-size: 15px;
+}
+
+header nav .navbar-nav {
+  justify-content: space-between;
 }
 
 header nav .navbar-nav a {
@@ -10998,7 +11020,7 @@ header nav img {
 }
 
 main {
-  margin-top: 86px;
+  margin-top: 50px;
 }
 
 #become,
@@ -11049,7 +11071,7 @@ main {
 }
 
 #partners {
-  padding: 0;
+  padding: 30px;
 }
 
 #partners p {
@@ -11085,168 +11107,7 @@ main {
 }
 
 #next .bell {
-  position: absolute;
-  right: 230px;
-  top: -25px;
-  width: 80px;
-  height: 80px;
-  background-color: white;
-  border-radius: 50%;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#next .bell i {
-  position: absolute;
-  -webkit-animation-name: ring;
-          animation-name: ring;
-  -webkit-animation: ring 4s ease-in-out infinite;
-          animation: ring 4s ease-in-out infinite;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  transform-origin: 50% 4px;
-}
-
-@-webkit-keyframes ring {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  1% {
-    transform: rotate(45deg);
-  }
-
-  2% {
-    transform: rotate(-42deg);
-  }
-
-  4% {
-    transform: rotate(40deg);
-  }
-
-  6% {
-    transform: rotate(-38deg);
-  }
-
-  8% {
-    transform: rotate(36deg);
-  }
-
-  10% {
-    transform: rotate(-32deg);
-  }
-
-  12% {
-    transform: rotate(30deg);
-  }
-
-  14% {
-    transform: rotate(-28deg);
-  }
-
-  16% {
-    transform: rotate(24deg);
-  }
-
-  18% {
-    transform: rotate(-20deg);
-  }
-
-  20% {
-    transform: rotate(16deg);
-  }
-
-  22% {
-    transform: rotate(-12deg);
-  }
-
-  24% {
-    transform: rotate(10deg);
-  }
-
-  26% {
-    transform: rotate(-8deg);
-  }
-
-  28% {
-    transform: rotate(4deg);
-  }
-
-  30% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes ring {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  1% {
-    transform: rotate(45deg);
-  }
-
-  2% {
-    transform: rotate(-42deg);
-  }
-
-  4% {
-    transform: rotate(40deg);
-  }
-
-  6% {
-    transform: rotate(-38deg);
-  }
-
-  8% {
-    transform: rotate(36deg);
-  }
-
-  10% {
-    transform: rotate(-32deg);
-  }
-
-  12% {
-    transform: rotate(30deg);
-  }
-
-  14% {
-    transform: rotate(-28deg);
-  }
-
-  16% {
-    transform: rotate(24deg);
-  }
-
-  18% {
-    transform: rotate(-20deg);
-  }
-
-  20% {
-    transform: rotate(16deg);
-  }
-
-  22% {
-    transform: rotate(-12deg);
-  }
-
-  24% {
-    transform: rotate(10deg);
-  }
-
-  26% {
-    transform: rotate(-8deg);
-  }
-
-  28% {
-    transform: rotate(4deg);
-  }
-
-  30% {
-    transform: rotate(0deg);
-  }
+  display: none;
 }
 
 #next h2 {
@@ -11254,7 +11115,7 @@ main {
 }
 
 #next span {
-  padding: 15px 30px 15px 50px;
+  padding: 15px 30% 15px 30%;
   background-color: #2ed04b;
   color: white;
   border-radius: 50px;
@@ -11264,10 +11125,11 @@ main {
 #next ul {
   padding-top: 50px;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 #next ul li {
-  display: inline-block;
   width: 240px;
   padding: 10px 0;
   background-color: #2ed04b;
@@ -11293,10 +11155,190 @@ main {
   color: white;
 }
 
+@media screen and (min-width: 993px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  #next .col-bell {
+    text-align: right;
+  }
+
+  #next .bell {
+    position: absolute;
+    right: 230px;
+    top: -25px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #next .bell i {
+    position: absolute;
+    -webkit-animation-name: ring;
+            animation-name: ring;
+    -webkit-animation: ring 4s ease-in-out infinite;
+            animation: ring 4s ease-in-out infinite;
+    -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s;
+    transform-origin: 50% 4px;
+  }
+
+@-webkit-keyframes ring {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    1% {
+      transform: rotate(45deg);
+    }
+
+    2% {
+      transform: rotate(-42deg);
+    }
+
+    4% {
+      transform: rotate(40deg);
+    }
+
+    6% {
+      transform: rotate(-38deg);
+    }
+
+    8% {
+      transform: rotate(36deg);
+    }
+
+    10% {
+      transform: rotate(-32deg);
+    }
+
+    12% {
+      transform: rotate(30deg);
+    }
+
+    14% {
+      transform: rotate(-28deg);
+    }
+
+    16% {
+      transform: rotate(24deg);
+    }
+
+    18% {
+      transform: rotate(-20deg);
+    }
+
+    20% {
+      transform: rotate(16deg);
+    }
+
+    22% {
+      transform: rotate(-12deg);
+    }
+
+    24% {
+      transform: rotate(10deg);
+    }
+
+    26% {
+      transform: rotate(-8deg);
+    }
+
+    28% {
+      transform: rotate(4deg);
+    }
+
+    30% {
+      transform: rotate(0deg);
+    }
+}
+
+@keyframes ring {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    1% {
+      transform: rotate(45deg);
+    }
+
+    2% {
+      transform: rotate(-42deg);
+    }
+
+    4% {
+      transform: rotate(40deg);
+    }
+
+    6% {
+      transform: rotate(-38deg);
+    }
+
+    8% {
+      transform: rotate(36deg);
+    }
+
+    10% {
+      transform: rotate(-32deg);
+    }
+
+    12% {
+      transform: rotate(30deg);
+    }
+
+    14% {
+      transform: rotate(-28deg);
+    }
+
+    16% {
+      transform: rotate(24deg);
+    }
+
+    18% {
+      transform: rotate(-20deg);
+    }
+
+    20% {
+      transform: rotate(16deg);
+    }
+
+    22% {
+      transform: rotate(-12deg);
+    }
+
+    24% {
+      transform: rotate(10deg);
+    }
+
+    26% {
+      transform: rotate(-8deg);
+    }
+
+    28% {
+      transform: rotate(4deg);
+    }
+
+    30% {
+      transform: rotate(0deg);
+    }
+}
+
+  #next span {
+    padding: 15px 30px 15px 50px;
+  }
+}
+
 footer {
   background-color: #1b3c59;
   color: white;
   padding: 100px 0 20px;
+  position: relative;
 }
 
 footer .row {
@@ -11340,5 +11382,15 @@ footer .social li a {
 
 footer .social li a:hover {
   color: #2ed04b;
+}
+
+@media screen and (min-width: 993px) {
+  .address {
+    text-align: left;
+  }
+
+  .link {
+    text-align: right;
+  }
 }
 

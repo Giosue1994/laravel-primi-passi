@@ -10,7 +10,7 @@
     <section id="become">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <h1>DIVENTA <span class="font-weight-bold">SVILUPPATORE WEB</span></h1>
             <h3 class="font-weight-bold">Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</h3>
             <ul>
@@ -20,9 +20,10 @@
             </ul>
           </div>
 
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/gif/pc-black-gif.gif') }}" alt="GIF">
           </div>
+
         </div>
       </div>
     </section>
@@ -31,17 +32,17 @@
     <section id="informations">
       <div class="container">
         <div class="row text-center">
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-4">
             <h2>98%</h2>
             <p>La percentuale dei nostri studenti che ora lavora come web developer, oltre la metà a tempo indeterminato.</p>
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-4">
             <h2>€ 23.000</h2>
             <p>Lo stipendio medio lordo di partenza degli studenti assunti dalle nostre aziende partner.</p>
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-4">
             <h2>#1</h2>
             <p>Siamo il primo istituto online in Italia per indice di gradimento e risultati conseguiti.</p>
           </div>
@@ -87,7 +88,7 @@
     <section id="home-school">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <h2>Una vera scuola a casa tua</h2>
             <p>
               Le lezioni si svolgono tutti i giorni, dal lunedì al venerdì,
@@ -111,7 +112,7 @@
             </ul>
           </div>
 
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/gif/pc-black1-gif.gif') }}" alt="GIF">
           </div>
         </div>
@@ -122,11 +123,11 @@
     <section id="practical">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/boolflix.png') }}" alt="Boolflix">
           </div>
 
-          <div class="col-6 text-right">
+          <div class="col-xs-12 col-lg-6 text-right">
             <h2>Un programma fortemente pratico</h2>
             <p>Ogni concetto teorico che assimili è seguito da un esercizio.</p>
             <p>Il piano di studi pensato per incrementare le tue competenze trae spunto da <span>case study reali</span>, così da proporti esercizi <span>sempre nuovi</span>.</p>
@@ -141,13 +142,13 @@
     <section id="placement">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <h2>Un dipartimento <span class="font-italic">placement</span> dedicato</h2>
             <p>Finito il corso, il nostro compito è quello di offrirti <span>un costante e attivo sostegno nella ricerca del lavoro</span>.</p>
             <p>A seconda della tua personalità e delle tue attitudini, <span>ti presentiamo alle aziende che più si avvicinano alle tue esigenze</span>, insegnandoti a utilizzare strumenti e metodi per rendere il tuo profilo accattivante per il mercato del lavoro.</p>
           </div>
 
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/studente.png') }}" alt="Studente">
           </div>
         </div>
@@ -160,19 +161,19 @@
         <h2>Perché Boolean?</h2>
         <p>Siamo con te dal primo giorno di corso alla firma del tuo contratto di assunzione.</p>
         <div class="row">
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/home.svg') }}" alt="Home">
             <h4>Impara da casa tua</h4>
             <p>8 studenti su 10 trovano che le lezioni in <span>aula virtuale</span> siano migliori rispetto alle lezioni tradizionali in classe.</p>
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/pen.svg') }}" alt="Pen">
             <h4>Corso pratico e interattivo</h4>
             <p>Più del 40% del tuo tempo è dedicato a <span>esercitazioni</span> e a case study. Intervieni in diretta e fai domande quando vuoi.</p>
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/chat.svg') }}" alt="Chat">
             <h4>Esercitazione assistita</h4>
             <p>Per ogni tuo dubbio, in aula virtuale c’è sempre un <span>tutor</span> pronto a darti una mano e a incoraggiarti.</p>
@@ -180,19 +181,19 @@
         </div>
 
         <div class="row">
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/bag.svg') }}" alt="Bag">
             <h4>Colloqui garantiti</h4>
             <p>Ti presentiamo alle nostre aziende partner e se entro 6 mesi non trovi lavoro, puoi usufruire della <span>garanzia Money Back</span></p>
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/code.svg') }}" alt="Code">
             <h4>Rivedi le lezioni</h4>
             <p>Sei stato assente o non hai capito? Niente paura, hai a disposizione le <span>registrazioni</span> di ogni lezione.</p>
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/light.svg') }}" alt="Light">
             <h4>Un'esperienza condivisa</h4>
             <p>Segui il corso insieme a ragazzi con la tua stessa motivazione e la tua stessa determinazione. <span>Insieme</span> si va lontano.</p>
@@ -207,11 +208,11 @@
         <h2>Dai una svolta alla tua carriera</h2>
         <h4>Le storie di successo di studenti e aziende partner</h4>
         <div class="row">
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/intervista.png') }}" alt="Intervista">
           </div>
 
-          <div class="col-6 text-right">
+          <div class="col-xs-12 col-lg-6 text-right">
             <h3 class="font-weight-bold">Il mio lavoro dopo Boolean</h3>
             <p class="font-italic">"Partendo da zero, in due settimane ho costruito il mio primo sito! Sono molto soddisfatto di aver scelto questo corso: l'impressione che si ha è quella di entrare in una classe vera e propria. Un corso innovativo che mi ha stupito”.</p>
             <p><span>Alessandro Biagini</span> - Studente Boolean assunto da DISC SPA come web developer</p>
@@ -219,13 +220,13 @@
         </div>
 
         <div class="row">
-          <div class="col-6 text-left">
+          <div class="col-xs-12 col-lg-6 text-left">
             <h3 class="font-weight-bold">Un network di aziende di livello</h3>
             <p class="font-italic">"La richiesta di web developer da parte delle aziende è molto alta. I pochi professionisti sul mercato vengono contattati quotidianamente da aziende potenzialmente interessate ad assumerli. La laurea non è un requisito fondamentale per questa professione: lo sono la voglia di formarsi e di crescere professionalmente".</p>
             <p><span>Stefania Gardini</span> - HR Talent Acquisition in Facile.it</p>
           </div>
 
-          <div class="col-6">
+          <div class="col-xs-12 col-lg-6">
             <img src="{{ asset('/img/career-2.png') }}" alt="Career">
           </div>
         </div>
@@ -237,15 +238,15 @@
       <div class="container">
         <p>Parlano di noi:</p>
         <div class="row">
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-4">
             <img src="{{ asset('/img/corriere-della-sera.png') }}" alt="Corriere della sera">
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-4">
             <img src="{{ asset('/img/la-repubblica.png') }}" alt="La Repubblica">
           </div>
 
-          <div class="col-4">
+          <div class="col-xs-12 col-lg-4">
             <img src="{{ asset('/img/linkiesta.png') }}" alt="Linkiesta">
           </div>
         </div>
@@ -255,8 +256,8 @@
     <!-- SEZIONE NEXT -->
     <section id="next">
       <div class="container">
-        <div class="row text-right">
-          <div class="col-12">
+        <div class="row text-center">
+          <div class="col-12 col-bell">
             <div class="bell">
               <i class="far fa-bell"></i>
             </div>
@@ -275,4 +276,5 @@
         </div>
       </div>
     </section>
+
 @endsection

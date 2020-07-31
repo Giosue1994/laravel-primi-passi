@@ -3,6 +3,7 @@ footer {
   background-color: #1b3c59;
   color: white;
   padding: 100px 0 20px;
+  position: relative;
 
   .row {
     border-bottom: 2px solid $primary_color;
@@ -51,4 +52,14 @@ footer {
     }
   }
 
+}
+
+@media screen and (min-width: 993px) {
+  .address {
+    text-align: left;
+  }
+
+  .link {
+    text-align: right;
+  }
 }

@@ -1,7 +1,7 @@
 
 // MAIN
 main {
-  margin-top: 86px;
+  margin-top: 50px;
 }
 
 // BACKGROUND DELLE SEZIONI
@@ -50,7 +50,7 @@ main {
 }
 
 #partners {
-  padding: 0;
+  padding: 30px;
 
   p {
     color: #8e8e8e;
@@ -90,45 +90,7 @@ main {
   padding-top: 50px;
 
   .bell {
-    position: absolute;
-    right: 230px;
-    top: -25px;
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    border-radius: 50%;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    i {
-      position: absolute;
-      animation-name: ring;
-      animation: ring 4s ease-in-out infinite;
-      animation-delay: 0.7s;
-      transform-origin: 50% 4px;
-    }
-
-    @keyframes ring {
-      0% { transform: rotate(0deg) };
-      1% { transform: rotate(45deg) };
-      2% { transform: rotate(-42deg) };
-      4% { transform: rotate(40deg) };
-      6% { transform: rotate(-38deg) };
-      8% { transform: rotate(36deg) };
-      10% { transform: rotate(-32deg) };
-      12% { transform: rotate(30deg) };
-      14% { transform: rotate(-28deg) };
-      16% { transform: rotate(24deg) };
-      18% { transform: rotate(-20deg) };
-      20% { transform: rotate(16deg) };
-      22% { transform: rotate(-12deg) };
-      24% { transform: rotate(10deg) };
-      26% { transform: rotate(-8deg) };
-      28% { transform: rotate(4deg) };
-      30% { transform: rotate(0deg) };
-    }
+    display: none;
   }
 
   h2 {
@@ -136,18 +98,20 @@ main {
   }
 
   span {
-    padding: 15px 30px 15px 50px;
+    padding: 15px 30% 15px 30%;
     background-color: $click_color;
     color: white;
     border-radius: 50px;
     font-size: 15px;
   }
+
   ul {
     padding-top: 50px;
     list-style-type: none;
+    display: flex;
+    justify-content: center;
 
     li {
-      display: inline-block;
       width: 240px;
       padding: 10px 0;
       background-color: $click_color;
@@ -172,4 +136,60 @@ main {
       }
     }
   }
+}
+
+@media screen and (min-width: 993px) {
+  h1 {
+    font-size: 55px;
+  }
+   #next {
+      .col-bell {
+        text-align: right;
+      }
+     .bell {
+       position: absolute;
+       right: 230px;
+       top: -25px;
+       width: 80px;
+       height: 80px;
+       background-color: white;
+       border-radius: 50%;
+       font-size: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+       i {
+         position: absolute;
+         animation-name: ring;
+         animation: ring 4s ease-in-out infinite;
+         animation-delay: 0.7s;
+         transform-origin: 50% 4px;
+       }
+
+       @keyframes ring {
+         0% { transform: rotate(0deg) };
+         1% { transform: rotate(45deg) };
+         2% { transform: rotate(-42deg) };
+         4% { transform: rotate(40deg) };
+         6% { transform: rotate(-38deg) };
+         8% { transform: rotate(36deg) };
+         10% { transform: rotate(-32deg) };
+         12% { transform: rotate(30deg) };
+         14% { transform: rotate(-28deg) };
+         16% { transform: rotate(24deg) };
+         18% { transform: rotate(-20deg) };
+         20% { transform: rotate(16deg) };
+         22% { transform: rotate(-12deg) };
+         24% { transform: rotate(10deg) };
+         26% { transform: rotate(-8deg) };
+         28% { transform: rotate(4deg) };
+         30% { transform: rotate(0deg) };
+       }
+     }
+
+     span {
+       padding: 15px 30px 15px 50px;
+     }
+   }
 }
