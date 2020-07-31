@@ -2,7 +2,53 @@
 footer {
   background-color: #1b3c59;
   color: white;
+  padding: 100px 0 20px;
+
+  .row {
+    border-bottom: 2px solid $primary_color;
+  }
+
   img {
     width: 200px;
   }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .address {
+    li {
+      font-size: 16px;
+    }
+  }
+
+  .link {
+    a {
+      color: $primary_color;
+      font-size: 23px;
+
+      &:hover {
+        color: $primary_color;
+      }
+    }
+  }
+
+  .social {
+    padding-top: 40px;
+
+    li {
+      display: inline-block;
+      font-size: 40px;
+      margin-right: 35px;
+
+      a {
+        color: white;
+
+        &:hover {
+          color: $click_color;
+        }
+      }
+    }
+  }
+
 }

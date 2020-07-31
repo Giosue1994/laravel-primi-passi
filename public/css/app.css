@@ -11296,9 +11296,49 @@ main {
 footer {
   background-color: #1b3c59;
   color: white;
+  padding: 100px 0 20px;
+}
+
+footer .row {
+  border-bottom: 2px solid white;
 }
 
 footer img {
   width: 200px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer .address li {
+  font-size: 16px;
+}
+
+footer .link a {
+  color: white;
+  font-size: 23px;
+}
+
+footer .link a:hover {
+  color: white;
+}
+
+footer .social {
+  padding-top: 40px;
+}
+
+footer .social li {
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 35px;
+}
+
+footer .social li a {
+  color: white;
+}
+
+footer .social li a:hover {
+  color: #2ed04b;
 }
 
