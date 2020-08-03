@@ -37282,6 +37282,15 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+$(document).ready(function () {
+  $('.faq-box').click(function () {
+    $(this).find('.answer-toggleable').slideToggle();
+    $(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+  });
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

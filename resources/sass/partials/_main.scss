@@ -1,7 +1,7 @@
 
 // MAIN
 main {
-  margin-top: 50px;
+  margin-top: 86px;
 }
 
 // BACKGROUND DELLE SEZIONI
@@ -13,14 +13,16 @@ main {
 
 #informations,
 #practical,
-#talk {
+#talk,
+.answer {
   @include layout_dark;
 }
 
 #home-school,
 #placement,
 #success,
-#next {
+#next,
+.question {
   background-color: $light_section;
 }
 
@@ -137,6 +139,39 @@ main {
     }
   }
 }
+
+// FAQ
+#faq {
+  padding-bottom: 0;
+
+  .title {
+    padding: 0 70px 50px;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .question,
+  .answer {
+    padding: 50px 80px;
+    position: relative;
+
+    .answer-toggleable {
+      display: none;
+    }
+
+    h3 {
+      padding-top: 30px;
+    }
+
+    .show {
+      float: right;
+      cursor: pointer;
+    }
+  }
+}
+
 
 @media screen and (min-width: 993px) {
   h1 {

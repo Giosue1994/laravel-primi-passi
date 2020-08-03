@@ -11020,7 +11020,7 @@ header nav img {
 }
 
 main {
-  margin-top: 50px;
+  margin-top: 86px;
 }
 
 #become,
@@ -11031,7 +11031,8 @@ main {
 
 #informations,
 #practical,
-#talk {
+#talk,
+.answer {
   background-color: #023c5a;
   color: white;
 }
@@ -11039,7 +11040,8 @@ main {
 #home-school,
 #placement,
 #success,
-#next {
+#next,
+.question {
   background-color: #e7ebf1;
 }
 
@@ -11153,6 +11155,40 @@ main {
 #next ul li a {
   text-decoration: none;
   color: white;
+}
+
+#faq {
+  padding-bottom: 0;
+}
+
+#faq .title {
+  padding: 0 70px 50px;
+}
+
+#faq .title a {
+  text-decoration: underline;
+}
+
+#faq .question,
+#faq .answer {
+  padding: 50px 80px;
+  position: relative;
+}
+
+#faq .question .answer-toggleable,
+#faq .answer .answer-toggleable {
+  display: none;
+}
+
+#faq .question h3,
+#faq .answer h3 {
+  padding-top: 30px;
+}
+
+#faq .question .show,
+#faq .answer .show {
+  float: right;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 993px) {
